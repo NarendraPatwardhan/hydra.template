@@ -4,6 +4,7 @@
 defaults:
   - _self_
   - nested: default.yaml
+  - dynamic: default.yaml
 
   # enable color logging
   - override hydra/hydra_logging: colorlog

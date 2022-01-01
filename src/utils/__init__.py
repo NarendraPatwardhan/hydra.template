@@ -63,7 +63,8 @@ def print_config(
         "name",
         "tag",
         "seed",
-        "nested"
+        "nested",
+        "dynamic"
     ),
     resolve: bool = True,
 ) -> None:

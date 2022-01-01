@@ -33,7 +33,7 @@ Depends on:
 Acts as the main process
 
 Role:
-- Utilizes the composed config and conditionally execute the main program loop
+- Utilizes the composed config and conditionally executes the main program loop
 
 ---
 
@@ -55,3 +55,12 @@ Example of Nested Config, available through command line as nested={leaf-yaml}
 Role:
 - Provides a primary config through `configs/nested/default.yaml`
 - Provides logic to selectively override the variables in default config via `configs/nested/alternative.yaml`
+
+---
+
+`config/dynamic`
+
+Pattern for dynamic creation of objects for a particular class
+
+Role:
+- Provides all the arguments necessary to construct an object tied to a particular class
